@@ -1,0 +1,22 @@
+PODS:
+  - A (1.0.0):
+    - B
+  - B (1.0.0)
+
+DEPENDENCIES:
+  - A (from `./`)
+  - B (from `./`)
+
+EXTERNAL SOURCES:
+  A:
+    :path: "./"
+  B:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  A: eabb819221b9ebde019a769a99848bf0dc122ab9
+  B: a834b9861d7d2400148456233f4fc695995785ef
+
+PODFILE CHECKSUM: 0352c86be8dbfb7c5ce276128576e23c9028bba1
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,25 @@
+{
+  "name": "A",
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT"
+  },
+  "homepage": "https://github.com/ksemianov/PodspecDependency",
+  "authors": {
+    "Konstantin Semianov": "semyanovk@gmail.com"
+  },
+  "summary": "Dummy pod with dependency B",
+  "source": {
+    "git": "https://github.com/ksemianov/PodspecDependency.git",
+    "tag": "v1.0.0"
+  },
+  "source_files": "A.swift",
+  "platforms": {
+    "ios": "14.0"
+  },
+  "dependencies": {
+    "B": [
+
+    ]
+  }
+}
